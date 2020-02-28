@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <link href="Style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pseudorandom</h1>
+      <div class="game" id="border">
+        <div class="character" id="border">
+          <p id="char"></p>
+        </div>
+        <div class="gameboard" id="border">
+          <p id="gameover"></p>
+          <div id="board"></div>
+        </div>
+        <div class="statsheet" id="border">
+          <p id="stats"></p>
+        </div>
+      </div>
+      <button id="generate" onclick="generate()">Generate!</button>
+      <button id="button" onclick="initGame()">Down the rabbithole!</button>
+      <button id="continue" onclick="gameLoop()">Continue...</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
